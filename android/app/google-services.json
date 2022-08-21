@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746644044732",
+    "project_id": "deliveryapps-d0f45",
+    "storage_bucket": "deliveryapps-d0f45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746644044732:android:80fb5c5c7c5111b0a689b9",
+        "android_client_info": {
+          "package_name": "VentaMovil.cl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746644044732-r9ev9plljd7v2tj597t0svfm6pcsnpvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4m-zBsmZLkpPYzdToxDI8ipayEd8y_W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746644044732-r9ev9plljd7v2tj597t0svfm6pcsnpvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
