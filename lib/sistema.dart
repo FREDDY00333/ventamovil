@@ -52,7 +52,7 @@ class Sistema {
   static const aplicativoCuriosity = 'CURIOSITY';
   static const idAplicativoCuriosity = 1000001;
   static const aplicativoTitleCuriosity = 'Curiosity';
-  static const packageNameCuriosity = 'ventamovil.cl';
+  static const packageNameCuriosity = 'VentaMovil.cl';
   static const appStoreIdCuriosity = '1488624281';
   static const uriDynamicCuriosity = 'https://TU.DOMINIO.COM/WEB';
   static const double lt = 39.678456;

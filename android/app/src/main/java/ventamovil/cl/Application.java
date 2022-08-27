@@ -1,4 +1,4 @@
-package ventamovil.cl;
+package VentaMovil.cl;
 
 import io.flutter.app.FlutterApplication;
 import io.flutter.plugin.common.PluginRegistry;

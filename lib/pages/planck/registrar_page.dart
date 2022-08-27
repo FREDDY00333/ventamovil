@@ -40,7 +40,7 @@ class _RegistrarPageState extends State<RegistrarPage>
   GoogleSignIn _googleSignIn = GoogleSignIn();
 
   bool isCelularValido = true;
-  String codigoPais = '+593';
+  String codigoPais = '+56';
   List<String> countries;
   String smn = '';
 
@@ -48,7 +48,7 @@ class _RegistrarPageState extends State<RegistrarPage>
   void initState() {
     _tabController = TabController(length: 2, vsync: this);
     super.initState();
-    _cliente.codigoPais = '+593';
+    _cliente.codigoPais = '+56';
     _cliente.correoValidado = '0';
     _cliente.celularValidado = '0';
     _escucharLoginGoogle();
@@ -244,7 +244,7 @@ class _RegistrarPageState extends State<RegistrarPage>
   }
 
   _onChangedCelular(phone) {
-    codigoPais = '+593';
+    codigoPais = '+56';
     _cliente.celular = phone;
   }
 
@@ -266,7 +266,7 @@ class _RegistrarPageState extends State<RegistrarPage>
     _saving = true;
     if (mounted) setState(() {});
     _formKey.currentState.save();
-    if (_cliente.celular.toString().length <= 8 ||
+    if (_cliente.celular.toString().length <= 9 ||
         val.validarNombre(_cliente.nombres.toString()) != null ||
         val.validarCorreo(_cliente.correo.toString()) != null) {
       _formKey.currentState.validate();

@@ -181,7 +181,7 @@ class _LoginPageState extends State<LoginPage> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       Text('¡EXPLORAR ${Sistema.aplicativo}!',
-                          style: TextStyle(color: Colors.indigo)),
+                          style: TextStyle(color: Colors.red)),
                     ],
                   ),
                   onPressed: () async {
@@ -202,7 +202,7 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   bool isCelularValido = true;
-  String codigoPais = '+593';
+  String codigoPais = '+56 ';
 
   _onChangedCelular(phone) {
     cliente.celular = phone;

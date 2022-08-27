@@ -1,4 +1,4 @@
-package ventamovil.cl;
+package VentaMovil.cl;
 
 import androidx.annotation.NonNull;
 
